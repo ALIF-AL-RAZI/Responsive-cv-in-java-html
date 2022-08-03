@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+    background: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fffde6;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.container .left_side
+{
+    position: relative;
+    background: #217095;
+    border-radius: 0px 170px 0px 0px;
+    padding: 40px;
+
+}
+
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profileText .imgBx{
+    position: relative;
+    background: #06425e;
+    width: 220px;
+    height: 220px;
+    padding: 10px;
+    border-radius: 50%;
+    
+}
+.imgBx .imgBx2{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+    overflow: hidden;
+}
+
+.imgBx .imgBx2 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.profileText h2{
+    color: #fffde6;
+    font-size: 2em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+
+.contactInfo{
+    padding-top: 20px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.title{
+    color: #fffde6;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+.contactInfo ul{
+    position: relative;
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: aqua;
+}
+
+.contactInfo ul li span{
+    font-weight: 300px;
+    width: 30px;
+    font-size: 15px;
+    color: #170039 ;
+}
+
+.otherInfo .title{
+    margin-top: 10px;
+    color: #fffde6;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+.otherInfo ul li{
+    font-weight: 300px;
+    font-size: 15px;
+    color: #170039 ;
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+
+}
+
+.container .right_side
+{
+    position: relative;
+    background: #fffde6;
+    padding: 0px 0px 20px 20px;
+
+}
+
+.sinfo{
+    position: relative;
+    background: #e0f7a3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sinfo h2{
+    color: #040031;
+    font-size: 1em;
+    margin-top: 20px;
+    
+    text-align: justify;
+    font-weight: 350;
+    line-height: 1.4em;
+}
+
+
+.right_side .education li{
+    position: relative;
+    list-style: none;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.right_side .education h5{
+    color: #706582;
+    font-weight: 500;
+}
+
+.right_side .education h4{
+    color: #170039;
+    font-weight: 500;
+}
+
+.right_side .education h3{
+    color: #5dac03;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.right_side .education h2{
+    color: #616d00;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.skills h3{
+    color: #5dac03;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.skills .box h4{
+    text-transform: uppercase;
+    color: #040031;
+    font-weight: 500;
+
+}
+
+.skills .box .percent{
+    position: relative;
+    width: 80%;
+    height: 8px;
+    background: #b5c6ce;
+
+}
+
+.skills .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #514970;
+}
+
+.right_side .ext_exp li{
+    position: relative;
+    list-style: none;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+.right_side .ext_exp h5{
+    color: #706582;
+    font-weight: 500;
+}
+
+.right_side .ext_exp h4{
+    color: #170039;
+    font-weight: 500;
+}
+
+.right_side .ext_exp h3{
+    color: #5dac03;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
